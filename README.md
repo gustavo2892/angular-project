@@ -1,6 +1,9 @@
+<img alt="Ignite" src="https://startupi.com.br/wp-content/uploads/2020/11/tecnologia-1-870x250.jpg" />
+
+
 # AngularProject
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.3.
+This is my first project with Angular
 
 ## Development server
 
