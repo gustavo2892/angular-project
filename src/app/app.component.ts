@@ -4,10 +4,15 @@ import { Component, OnInit, DoCheck, AfterContentInit, AfterContentChecked, Afte
   selector: 'app-root',
   template: `
     <app-title *ngIf="destruir"></app-title>
+    <h1>Ciclo do componente</h1>
     {{valor}}
+    <br><br>
     <button (click)="adicionar()">Adicionar</button>
     <br><br>
     <button (click)="destruirComponent()">Destruir</button>
+    <br><br>
+    <h1>Template Data Binding</h1>
+    <app-data-biding></app-data-biding>
     <router-outlet></router-outlet>
   `
 })
